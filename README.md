@@ -32,3 +32,11 @@ E-commerce app for audio products.
 - `useThemeTokens.js` — style objects derived from config
 - `products.js` — product data
 - `user.js` — user profile data
+
+## Adding a New Page
+
+1. Add to `routes` in `appConfig.js`
+2. Add to the resolver in `AppContext.jsx`
+3. Create the page component in `src/pages/`
+
+No changes needed anywhere else.
