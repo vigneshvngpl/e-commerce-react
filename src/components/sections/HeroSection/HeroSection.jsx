@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./HeroSection.css";
+import "./Herosection.css";
 import { useThemeTokens } from "../../../hooks/useThemeTokens";
 
 export default function HeroSection({ section }) {
