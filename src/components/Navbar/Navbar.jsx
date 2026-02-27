@@ -41,12 +41,12 @@ export default function Navbar() {
           {themeName === "dark" ? <BsSun size={18} /> : <BsMoon size={18} />}
         </button>
 
-        <button className="cart-btn">
+        <Link to="/profile" className="cart-btn">
           <BsBag size={20} />
           {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
-        </button>
+        </Link>
 
-        <Link to="/profile" className={`profile-btn ${isActive("/profile") ? "active" : ""}`} title="Profile">
+        <Link to="/profile" className={`profile-btn`} title="Profile">
           <BsPerson size={20} />
         </Link>
 
