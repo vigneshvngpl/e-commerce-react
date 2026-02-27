@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useThemeTokens } from "../../../hooks/useThemeTokens";
 import ProductCard from "../../ProductCard/ProductCard";
-import "./ProductGridSection.css";
+import "./Productgridsection.css";
 import { products } from "../../../data/products";
 
 export default function ProductGridSection({ section }) {
