@@ -1,0 +1,6 @@
+export const userData = {
+  name: "John Doe",
+  email: "john.doe@example.com",
+  phone: "+1 234 567 8900",
+  location: "New York, USA",
+};

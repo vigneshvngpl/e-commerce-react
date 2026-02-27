@@ -1,0 +1,15 @@
+.footer {
+  background: var(--footer-bg);
+  border-top: 1px solid var(--border);
+  margin-top: 6rem;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 2rem;
+  text-align: center;
+  font-size: 0.825rem;
+  color: var(--text-secondary);
+}
+
